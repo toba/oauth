@@ -1,0 +1,44 @@
+{
+   "name": "@toba/oauth",
+   "description": "Toba OAuth",
+   "version": "1.0.0",
+   "private": false,
+   "publishConfig": {
+      "access": "public"
+   },
+   "main": "",
+   "files": ["index.ts"],
+   "author": {
+      "name": "Jason Abbott"
+   },
+   "license": "MIT",
+   "scripts": {
+      "test": "jest"
+   },
+   "jest": {
+      "transform": {
+         "^.+\\.tsx?$": "ts-jest"
+      },
+      "transformIgnorePatterns": ["<rootDir>/node_modules/(?!@toba)"],
+      "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+      "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+   },
+   "devDependencies": {
+      "@toba/lint": "^1.2.0",
+      "@toba/test": "^1.0.0",
+      "prettier": "^1.9.2",
+      "typescript": "^2.7.0"
+   },
+   "prettier": {
+      "singleQuote": true,
+      "tabWidth": 3
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/toba/oauth"
+   },
+   "bugs": {
+      "url": "https://github.com/toba/flickr/oauth"
+   },
+   "dependencies": {}
+}
