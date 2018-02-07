@@ -7,21 +7,15 @@
       "access": "public"
    },
    "main": "",
-   "files": ["index.ts"],
+   "files": [
+      "index.ts"
+   ],
    "author": {
       "name": "Jason Abbott"
    },
    "license": "MIT",
    "scripts": {
       "test": "jest"
-   },
-   "jest": {
-      "transform": {
-         "^.+\\.tsx?$": "ts-jest"
-      },
-      "transformIgnorePatterns": ["<rootDir>/node_modules/(?!@toba)"],
-      "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-      "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
    },
    "devDependencies": {
       "@toba/lint": "^1.3.3",
@@ -38,7 +32,7 @@
       "url": "https://github.com/toba/oauth"
    },
    "bugs": {
-      "url": "https://github.com/toba/flickr/oauth"
+      "url": "https://github.com/toba/oauth/issues"
    },
    "dependencies": {
       "oauth": "^0.9.15"

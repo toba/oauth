@@ -1,3 +1,5 @@
+export { OAuth as OAuthClient } from 'oauth';
+
 export interface Token {
    type?: string;
    access: string;
