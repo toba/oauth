@@ -10,3 +10,17 @@
 ```
 yarn add @toba/oauth --dev
 ```
+
+Optionally add `oauth` dependency types to TypeScript type roots in `tsconfig.json`
+
+```json
+{
+   "extends": "./node_modules/@toba/lint/ts/config",
+   "compilerOptions": {
+      "typeRoots": [
+         "./node_modules/@types",
+         "./node_modules/@toba/oauth/types"
+      ]
+   }
+}
+```
