@@ -14,6 +14,7 @@ export interface Config {
    secret: string;
    /** URL that will be invoked by authenticator */
    callbackURL: string;
+   token?: Token;
 }
 
 export interface BasicAuth {
