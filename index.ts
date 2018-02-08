@@ -12,7 +12,8 @@ export interface Token {
 export interface Config {
    apiKey: string;
    secret: string;
-   callback: () => void;
+   /** URL that will be invoked by authenticator */
+   callbackURL: string;
 }
 
 export interface BasicAuth {
