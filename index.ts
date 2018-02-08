@@ -6,14 +6,14 @@ export interface Token {
    secret?: string;
    request?: string;
    refresh?: string;
-   accessExpiration: Date;
+   accessExpiration?: Date;
 }
 
 export interface Config {
    apiKey: string;
    secret: string;
    /** URL that will be invoked by authenticator */
-   callbackURL: string;
+   callback: string;
    token?: Token;
 }
 
