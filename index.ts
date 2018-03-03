@@ -1,3 +1,5 @@
+export { OAuth as OAuthClient } from 'oauth';
+
 export interface Token {
    type?: string;
    access: string;
@@ -7,7 +9,7 @@ export interface Token {
    accessExpiration: Date;
 }
 
-export interface Auth {
+export interface BasicAuth {
    getAccessToken(code: string): Promise<Token>;
    getAccessToken(requestToken: string, verifier: string): Promise<Token>;
    /**
