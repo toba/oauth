@@ -1,4 +1,4 @@
-export { OAuth as OAuthClient } from 'oauth';
+export { OAuth as Client } from 'oauth';
 
 export interface Token {
    type?: string;
@@ -6,7 +6,15 @@ export interface Token {
    secret?: string;
    request?: string;
    refresh?: string;
-   accessExpiration: Date;
+   accessExpiration?: Date;
+}
+
+export interface Config {
+   apiKey: string;
+   secret: string;
+   /** URL that will be invoked by authenticator */
+   callback: string;
+   token?: Token;
 }
 
 export interface BasicAuth {
