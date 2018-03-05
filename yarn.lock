@@ -28,8 +28,8 @@
     tslint-consistent-codestyle "^1.11.0"
 
 "@toba/test@^1.0.4":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@toba/test/-/test-1.0.5.tgz#dd370f90b74641f290bb389395ca2ad345c26036"
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@toba/test/-/test-1.1.0.tgz#45d8d301a86a4e85a82659db08654018a2b4b8c0"
   dependencies:
     "@types/jest" "^22.1.1"
     jest "^22.4.0"
@@ -79,8 +79,8 @@ ajv@^5.1.0:
     json-schema-traverse "^0.3.0"
 
 ajv@^6.0.1:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.2.0.tgz#afac295bbaa0152449e522742e4547c1ae9328d2"
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.2.1.tgz#28a6abc493a2abe0fb4c8507acaedb43fa550671"
   dependencies:
     fast-deep-equal "^1.0.0"
     fast-json-stable-stringify "^2.0.0"
@@ -3513,8 +3513,8 @@ tslint@^5.9.0:
     tsutils "^2.12.1"
 
 tsutils@^2.12.1, tsutils@^2.21.0:
-  version "2.22.1"
-  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.22.1.tgz#30450bd701be623b9e11a129df0c32322678461b"
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.22.2.tgz#0b9f3d87aa3eb95bd32d26ce2b88aa329a657951"
   dependencies:
     tslib "^1.8.1"
 
