@@ -10,6 +10,8 @@ export interface Token {
 }
 
 export interface Config {
+   /** OAuth 2 client ID */
+   clientID?: string;
    apiKey: string;
    secret: string;
    /** URL that will be invoked by authenticator */

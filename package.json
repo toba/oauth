@@ -1,16 +1,13 @@
 {
    "name": "@toba/oauth",
    "description": "Toba OAuth",
-   "version": "1.1.5",
+   "version": "1.1.6",
    "private": false,
    "publishConfig": {
       "access": "public"
    },
    "main": "",
-   "files": [
-      "index.ts",
-      "types/oauth/index.d.ts"
-   ],
+   "files": ["index.ts", "types/oauth/index.d.ts"],
    "author": {
       "name": "Jason Abbott"
    },
