@@ -1,9 +1,6 @@
 {
-   "extends": "./node_modules/@toba/lint/ts/config",
+   "extends": "./node_modules/@toba/build/ts/config",
    "compilerOptions": {
-      "typeRoots": [
-         "./node_modules/@types",
-         "./types"
-      ]
+      "typeRoots": ["./node_modules/@types", "./types"]
    }
 }

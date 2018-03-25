@@ -9,6 +9,15 @@ export interface Token {
    accessExpiration?: Date;
 }
 
+/**
+ * https://oauth1.wp-api.org/docs/basics/Signing.html
+ */
+export enum SigningMethod {
+   HMAC = 'HMAC-SHA1',
+   RSA = 'RSA-SHA1',
+   PlainText = 'PLAINTEXT'
+}
+
 export interface Config {
    /** OAuth 2 client ID */
    clientID?: string;

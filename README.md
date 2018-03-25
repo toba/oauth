@@ -15,12 +15,9 @@ Optionally add `oauth` dependency types to TypeScript type roots in `tsconfig.js
 
 ```json
 {
-   "extends": "./node_modules/@toba/lint/ts/config",
+   "extends": "./node_modules/@toba/build/ts/config",
    "compilerOptions": {
-      "typeRoots": [
-         "./node_modules/@types",
-         "./node_modules/@toba/oauth/types"
-      ]
+      "typeRoots": ["./node_modules/@types", "./node_modules/@toba/oauth/types"]
    }
 }
 ```
