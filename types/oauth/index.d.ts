@@ -1,5 +1,5 @@
 /**
- * https://github.com/ciaranj/node-oauth
+ * @see https://github.com/ciaranj/node-oauth
  */
 declare module 'oauth' {
    export class OAuth {
