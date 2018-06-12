@@ -45,8 +45,8 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.0.tgz#50c1e2260ac0ed9439a181de3725a0168d59c48a"
 
 "@toba/build@^1.4.0":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@toba/build/-/build-1.6.1.tgz#3b5411f76f32c91488acc2fabef07b03405090c1"
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@toba/build/-/build-1.7.0.tgz#0d2a4eac97c1538502d7b5654f46c171198d599e"
   dependencies:
     stylelint "^9.2.0"
     stylelint-config-standard "^18.2.0"
@@ -77,8 +77,8 @@
     ts-jest "^22.4.0"
 
 "@toba/tools@^3.0.0", "@toba/tools@^3.2.0":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@toba/tools/-/tools-3.2.2.tgz#d2d6d143f13d24c2569e56aef14f7444e35063e7"
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@toba/tools/-/tools-3.2.3.tgz#2d05a8607566db6cbd16d1768a6beb6ab7753603"
   dependencies:
     zlib "^1.0.5"
 
