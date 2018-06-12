@@ -1,19 +1,23 @@
 {
    "name": "@toba/oauth",
    "description": "Toba OAuth",
-   "version": "1.2.2",
+   "version": "1.2.3",
    "private": false,
    "publishConfig": {
       "access": "public"
    },
-   "main": "",
-   "files": ["index.ts", "types/oauth/index.d.ts"],
+   "main": "dist/index.js",
+   "types:": "dist/index.d.ts",
+   "files": [
+      "dist/**/*"
+   ],
    "author": {
       "name": "Jason Abbott"
    },
    "license": "MIT",
    "scripts": {
-      "test": "jest"
+      "prepublishOnly": "./node_modules/.bin/tsc",
+      "test": "jest --coverage"
    },
    "devDependencies": {
       "@toba/build": "^1.4.0",
