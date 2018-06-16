@@ -64,13 +64,13 @@
     flat "^4.0.0"
     logfmt "^1.2.0"
 
-"@toba/test@^1.17.0":
-  version "1.17.1"
-  resolved "https://registry.yarnpkg.com/@toba/test/-/test-1.17.1.tgz#50a419486e4e54f596e6969812b0906ca899d9cb"
+"@toba/test@^1.18.0":
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/@toba/test/-/test-1.18.0.tgz#4225a000b52d79bf18a98be5ed65a890f9edd607"
   dependencies:
     "@toba/logger" "^1.0.4"
     "@toba/tools" "^3.2.0"
-    "@types/jest" "^23.0.0"
+    "@types/jest" "^23.1.0"
     "@types/node" "^10.3.0"
     jest "^23.1.0"
     jest-localstorage-mock "^2.2.0"
@@ -82,7 +82,7 @@
   dependencies:
     zlib "^1.0.5"
 
-"@types/jest@^23.0.0":
+"@types/jest@^23.1.0":
   version "23.1.0"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-23.1.0.tgz#8054dd838ba23dc331794d26456b86c7e50bf0f6"
 

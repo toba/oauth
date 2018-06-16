@@ -1,7 +1,7 @@
 {
    "name": "@toba/oauth",
    "description": "Toba OAuth",
-   "version": "1.2.6",
+   "version": "1.2.7",
    "private": false,
    "publishConfig": {
       "access": "public"
@@ -21,7 +21,7 @@
    },
    "devDependencies": {
       "@toba/build": "^1.7.0",
-      "@toba/test": "^1.17.0",
+      "@toba/test": "^1.18.0",
       "prettier": "^1.13.0",
       "typescript": "^2.9.0"
    },

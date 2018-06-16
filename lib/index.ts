@@ -27,7 +27,7 @@ export enum SigningMethod {
    PlainText = 'PLAINTEXT'
 }
 
-export interface Config {
+export interface AuthConfig {
    /** OAuth 2 client ID */
    clientID?: string;
    apiKey: string;
