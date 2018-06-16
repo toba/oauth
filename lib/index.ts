@@ -1,4 +1,4 @@
-export { OAuth as Client } from 'oauth';
+export { OAuth as AuthClient } from 'oauth';
 
 export interface Token {
    type?: string;
