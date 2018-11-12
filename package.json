@@ -1,15 +1,16 @@
 {
    "name": "@toba/oauth",
    "description": "Toba OAuth",
-   "version": "1.2.9",
+   "version": "2.0.0",
    "private": false,
    "publishConfig": {
       "access": "public"
    },
-   "main": "dist/index.js",
-   "types:": "dist/index.d.ts",
+   "main": "lib/index.ts",
+   "types:": "js/index.d.ts",
    "files": [
-      "dist/**/*"
+      "lib/**/!(*.test).ts",
+      "js"
    ],
    "author": {
       "name": "Jason Abbott"
@@ -20,8 +21,8 @@
       "test": "jest --coverage"
    },
    "devDependencies": {
-      "@toba/build": "^1.7.0",
-      "@toba/test": "^1.18.0",
+      "@toba/build": "^2.0.0",
+      "@toba/test": "^2.0.0",
       "prettier": "^1.13.0",
       "typescript": "^3.1.0"
    },
