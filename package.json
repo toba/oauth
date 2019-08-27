@@ -1,32 +1,31 @@
 {
    "name": "@toba/oauth",
    "description": "Toba OAuth",
-   "version": "2.0.0",
+   "version": "2.1.0",
    "private": false,
    "publishConfig": {
       "access": "public"
    },
-   "main": "lib/index.ts",
-   "types:": "js/index.d.ts",
-   "files": [
-      "lib/**/!(*.test).ts",
-      "js"
-   ],
    "author": {
       "name": "Jason Abbott"
    },
    "license": "MIT",
+   "main": "cjs/index.js",
+   "module": "esm/index.js",
+   "types": "esm/index.d.ts",
+   "files": [
+      "esm",
+      "cjs"
+   ],
    "scripts": {
-      "prepublishOnly": "./node_modules/.bin/tsc",
+      "build:esm": "./node_modules/.bin/tsc --project ./node_modules/@toba/develop/tsconfig.esm.json",
+      "build:cjs": "./node_modules/.bin/tsc --project ./node_modules/@toba/develop/tsconfig.cjs-min.json",
+      "prepublishOnly": "npm run build:esm & npm run build:cjs",
       "test": "jest --coverage"
    },
    "devDependencies": {
-      "@toba/build": "^2.0.0",
-      "@toba/test": "^2.0.0"
-   },
-   "prettier": {
-      "singleQuote": true,
-      "tabWidth": 3
+      "@toba/develop": "^6.6.11",
+      "@toba/test": "^4.1.0"
    },
    "repository": {
       "type": "git",

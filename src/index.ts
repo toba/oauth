@@ -21,7 +21,7 @@ export interface Token {
 /**
  * @see https://oauth1.wp-api.org/docs/basics/Signing.html
  */
-export enum SigningMethod {
+export const enum SigningMethod {
    HMAC = 'HMAC-SHA1',
    RSA = 'RSA-SHA1',
    PlainText = 'PLAINTEXT'
