@@ -7,7 +7,7 @@ export interface Token {
     * application has been authenticated, such as with an API key and secret.
     * @see https://auth0.com/docs/tokens/access-token
     */
-   access: string
+   access?: string
    secret?: string
    request?: string
    /**

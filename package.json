@@ -1,7 +1,7 @@
 {
    "name": "@toba/oauth",
    "description": "Toba OAuth",
-   "version": "2.1.1",
+   "version": "2.1.2",
    "private": false,
    "publishConfig": {
       "access": "public"
