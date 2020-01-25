@@ -1,6 +1,6 @@
-import { AuthClient } from './index';
+import { AuthClient } from './index'
 
 test('imports oauth library', () => {
-   expect(AuthClient).toBeDefined();
-   expect(typeof AuthClient).toBe('function');
-});
+   expect(AuthClient).toBeDefined()
+   expect(typeof AuthClient).toBe('function')
+})
